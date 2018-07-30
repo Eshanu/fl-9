@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div id="container">
+        <div id="content" role="main">
+        <header>
+          <img src='logo.png' alt='logo'>
+          <h1 id='home'><b>HTML Elements</b></h1>
+          <hr>
+          <nav>
+            <a href='#home'>Home</a>
+            <a href='#headeres'>Headeres</a>
+            <a href='#table'>Table</a>
+            <a href='#list'>List</a>
+            <a href='#textformats'>Text formats</a>
+            <a href='#bloquotes'>Bloquotes</a>
+          </nav>
+          <hr>
+        </header>
+        <div>
+          <p>Pay attention to h1 teg inside section element. Font size for h1 is the same as font-size for h2,
+            becouse we have to use only one h1 on the page, and it is commonly used inside header
+          </p>
+          <h2 id='headeres'>Header</h2>
+          <h3>Header</h3>
+          <h4>Header</h4>
+          <h5>Header</h5>
+          <h6>Header</h6>
+        </div>
+          <div>
+            <h2>Table</h2>
+            <table border='1' width='100%' cellapadding='5'>
+              <tr>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+              </tr>
+              <tr>
+                <td><strong>Strong</strong></td>
+                <td>CO<sub>2</sub></td>
+                <td><a href='https://www.youtube.com/watch?v=mOnf_5Bn9x8'>Some link</a></td>
+              </tr>
+              <tr>
+                <td><i>Italic</i></td>
+                <td><abbr>Abbreviation</abbr></td>
+                <td><s>Delete</s></td>
+              </tr><tr>
+                <td><u>Underline</u></td>
+                <td>5<sup>3</sup>=125</td>
+                <td><mark>Inerted</mark></td>
+              </tr>
+            </table>
+            <div>
+              <h2>Unorderd list</h2>
+              <ul type='square'>
+                <li>List item 1</li>
+                <li>List item 2
+                  <ul type='square'>
+                    <li>Some neted list item 1</li>
+                  </ul>
+                </li>
+                <li>List item 3</li>
+              </ul>
+              <h2>Ordered List</h2>
+              <ol>
+                <li>List item 1</li>
+                <li>List item 2
+                  <ol type='A'>
+                    <li>Some neted list item 1</li>
+                  </ol>
+                </li>
+                <li>List item 3</li>
+              </ol>
+              <h3>Definition list</h3>
+              <dl>
+                <dt>defines terms 1</dt>
+                 <dd>description 1</dd>
+              </dl>
+              <dl>
+                <dt>defines terms 2</dt>
+                <dd>description</dd>
+              </dl>
+            </div>
+            <div>
+              <h2>Detailes</h2>
+
+              <details open>
+                <summary> Some details element (open)</summary>
+                <p>Here are more details about the details.</p>
+              </details>
+              <details>
+                <summary> Some details element (close)</summary>
+                <p>Here are more details about the details.</p>
+              </details>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <p>&copy; Copyright Epam Systems</p>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
