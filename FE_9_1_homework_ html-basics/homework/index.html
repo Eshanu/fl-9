@@ -30,14 +30,14 @@
           <p>Pay attention to h1 teg inside section element. Font size for h1 is the same as font-size for h2,
             becouse we have to use only one h1 on the page, and it is commonly used inside header
           </p>
-          <h2 id='headeres'>Header</h2>
-          <h3>Header</h3>
-          <h4>Header</h4>
-          <h5>Header</h5>
-          <h6>Header</h6>
+          <h2 id='headeres'>Header 2</h2>
+          <h3>Header 3</h3>
+          <h4>Header 4</h4>
+          <h5>Header 5</h5>
+          <h6>Header 6</h6>
         </div>
           <div>
-            <h2>Table</h2>
+            <h2 id='table'>Table</h2>
             <table border='1' width='100%' cellapadding='5'>
               <tr>
                 <th>Header</th>
@@ -56,16 +56,16 @@
               </tr><tr>
                 <td><u>Underline</u></td>
                 <td>5<sup>3</sup>=125</td>
-                <td><mark>Inerted</mark></td>
+                <td><ins>Inserted</ins></td>
               </tr>
             </table>
             <div>
-              <h2>Unorderd list</h2>
+              <h2 id='list'>Unorderd list</h2>
               <ul type='square'>
                 <li>List item 1</li>
                 <li>List item 2
                   <ul type='square'>
-                    <li>Some neted list item 1</li>
+                    <li>Some nested list item 1</li>
                   </ul>
                 </li>
                 <li>List item 3</li>
@@ -75,7 +75,7 @@
                 <li>List item 1</li>
                 <li>List item 2
                   <ol type='A'>
-                    <li>Some neted list item 1</li>
+                    <li>Some nested list item 1</li>
                   </ol>
                 </li>
                 <li>List item 3</li>
@@ -102,10 +102,55 @@
                 <p>Here are more details about the details.</p>
               </details>
             </div>
+               <br><br>
+              <h2 id='textformats'>Text formats</h2>
+              <h3>Article Text</h3>
+              <article>
+                <h2>Article title</h2>
+                <p>Article decription</p>
+              </article>
+
+            <div>
+              <h3>Preformatted Text</h3>
+  <pre>
+<b>Text</b>
+  in a pre element
+    is displayed in a fixed-width
+font, and it preserves
+both           spaces and
+    line breaks
+  </pre>
+              <h3>Code</h3>
+  <pre>
+  <code>
+     .wrapper {
+      display: flex;
+      vertical-align: middle;
+      justify-content: center;
+     }
+  </code>
+  </pre>
+            </div>
+            <div>
+              <h2 id='bloquotes'>Blockquotes</h2>
+              <p>Let’s keep it simple. Italics are good to help set it off from the body text.
+                Be sure to style the citation.</p>
+              <blockquote>
+                "If you go back a few hundred years,
+                what we take for granted today would
+                seem like magic-being able to talk to
+                people over long distances, to transmit
+                images, flying, accessing vast amounts of
+                data like an oracle. These are all things
+                that would have been considered magic a
+                few hundred years ago."
+               <a href='https://www.youtube.com/watch?v=WQFb2qmNmxY'><br>Elon Musk</a>
+              </blockquote>
+            </div>
           </div>
         </div>
         <footer>
-          <p>&copy; Copyright Epam Systems</p>
+          <h3>&copy; Copyright Epam Systems</h3>
         </footer>
       </div>
     </div>
