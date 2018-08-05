@@ -1,1 +1,48 @@
+/*
+
+
+write your code here
+
+*/
+.thumbnail {
+  border-radius: 150px;
+}
+.tm-box-bg-title:hover{
+  background:#76cdd7 ;
+  color:white;
+  font-weight: bold;
+  transition: 1s;
+}
+.tm-banner-text:first-letter{
+  font-size: 30px;
+  color:#76cdd7;
+}
+.tm-main-nav, #home, section{
+  box-shadow: 0px 1px 10px 6px rgba(209,209,209,1);
+}
+ section::before{
+content: "";
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 30px 135px 0 0;
+border-color: #76cdd7 transparent transparent transparent;
+}
+.btn-primary:hover{
+  background:#76cdd7 ;
+  color:white;
+  transition: 1s;
+}
+.form-control{
+  color:red;
+}
+.form-group-2-col-right::after {
+  content: " *";
+  color: red;
+}
+
+
+
+
+
 
